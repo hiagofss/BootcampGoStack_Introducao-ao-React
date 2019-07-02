@@ -1,10 +1,10 @@
 import React from 'react';
 import './App.css';
 
-import picture from './assets/picture.jpg';
+import TeckList from './components/TechList';
 
 function App() {
-  return <img src={picture} alt="" />;
+  return <TeckList />;
 }
 
 export default App;
