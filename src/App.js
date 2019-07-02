@@ -1,10 +1,10 @@
 import React from 'react';
 import './App.css';
 
-import TeckList from './components/TechList';
+import TechList from './components/TechList';
 
 function App() {
-  return <TeckList />;
+  return <TechList />;
 }
 
 export default App;
