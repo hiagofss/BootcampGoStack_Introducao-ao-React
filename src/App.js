@@ -1,8 +1,10 @@
 import React from 'react';
 import './App.css';
 
+import picture from './assets/picture.jpg';
+
 function App() {
-  return <h1>Hello Hiago</h1>;
+  return <img src={picture} alt="" />;
 }
 
 export default App;
